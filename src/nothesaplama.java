@@ -28,11 +28,11 @@ public class nothesaplama {
         beden = giris.nextInt();
         System.out.println("Beden Notunuz : " + beden);
 
-        int toplam = mat + fizik + kimya + tarih + resim + beden;
-        double  sonuc = toplam / 6;
-        System.out.println("Not Ortalamanız: " + sonuc);
-        boolean sonuc2 = sonuc >= 60.0;
-        String sonucBildirme = sonuc2 ? "Sınıfı Geçtiniz" : "Sınıfta Kaldınız";
+        int total = mat + fizik + kimya + tarih + resim + beden;
+        double res = total / 6;
+        System.out.println("Not Ortalamanız: " + res);
+        boolean result = res >= 60.0;
+        String sonucBildirme = result ? "Sınıfı Geçtiniz" : "Sınıfta Kaldınız";
         System.out.print(sonucBildirme);
 
 

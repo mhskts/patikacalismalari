@@ -2,16 +2,16 @@ import java.util.Scanner;
 public class kdvhesaplama {
     public static void main(String[] args) {
         double kdv = 1.18;
-        double urunDegeri;
-        Scanner giris = new Scanner(System.in);
+        double proValue;
+        Scanner input = new Scanner(System.in);
         System.out.print("Lütfen Ürünün Değerini Giriniz : ");
-        urunDegeri = giris.nextDouble();
-        double  kdvli = urunDegeri * kdv;
-        double  kdvliyuvarla = (double) (Math.round(kdvli*10.0)/10.0);
-        double kdvTutar = kdvliyuvarla - urunDegeri;
-        double  kdvYuvarla = (double) (Math.round(kdvTutar*10.0)/10.0);
-        System.out.println("Girdiğiniz Ürünün Değeri : " + urunDegeri);
-        System.out.println("Ürünün Kdv Dahil Fiyatı : " + kdvliyuvarla);
-        System.out.print("Kdv Tutarı : " + kdvYuvarla );
+        proValue = input.nextDouble();
+        double  withkdv = proValue * kdv;
+        double kdvround = (double) (Math.round(withkdv*10.0)/10.0);
+        double kdvValue = kdvround - proValue;
+        double  kdvro = (double) (Math.round(kdvValue*10.0)/10.0);
+        System.out.println("Girdiğiniz Ürünün Değeri : " + proValue);
+        System.out.println("Ürünün Kdv Dahil Fiyatı : " + kdvround);
+        System.out.print("Kdv Tutarı : " + kdvro );
     }
 }
