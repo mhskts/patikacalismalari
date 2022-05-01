@@ -7,3 +7,4 @@
 * Manav Kasa Programı
 * Hesap Makinesi
 * Kullanıcı Girişi
+* Ders Ortalaması Hesaplama
