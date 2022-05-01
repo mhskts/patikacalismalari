@@ -5,3 +5,4 @@
 * Taksi Ücreti Hesaplama
 * Vücut Kitle Endeks Hesaplama
 * Manav Kasa Programı
+* Hesap Makinesi
