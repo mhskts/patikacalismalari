@@ -8,3 +8,4 @@
 * Hesap Makinesi
 * Kullanıcı Girişi
 * Ders Ortalaması Hesaplama
+* Etkinlik Önerme
