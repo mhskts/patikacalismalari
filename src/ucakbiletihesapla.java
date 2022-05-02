@@ -13,6 +13,7 @@ public class ucakbiletihesapla {
         age = input.nextInt();
         System.out.println("Lütfen yolculuk tipini giriniz.\n1-Tek Yön\n2-GidişDönüş");
         type = input.nextInt();
+        double total = km*dist;
         if (km < 1) {
             error = "Km ";
             isError = true;
@@ -27,24 +28,28 @@ public class ucakbiletihesapla {
         }
         if (isError) {
             System.out.println(error + error2 + error3 + "verisini hatalı girdiniz.");
-        } else if (age < 12 && type == 2) {
-            System.out.println("Bilet ücretiniz = " + (km * dist * 0.3));
+        } else if (age < 12) {
+            if (type == 1) {
+                System.out.println("Bilet ücretiniz = " + (total * 0.5));
+            }else {
+                System.out.println("Bilet ücretiniz = " + (((total)-(total*0.50))-((total*0.50)*0.2))*2);
+            }
         } else if (age >= 12 && age <= 24) {
             if (type == 1) {
-                System.out.println("Bilet ücretiniz = " + (km * dist * 0.9));
+                System.out.println("Bilet ücretiniz = " + (total * 0.9));
             } else {
-                System.out.println("Bilet ücretiniz = " + (km * dist * 0.7));
+                System.out.println("Bilet ücretiniz = " + (((total)-(total*0.10))-((total*0.90)*0.2))*2);
             }
         } else if (age >= 65) {
             if (type == 1) {
-                System.out.println("Bilet ücretiniz = " + (km * dist * 0.7));
+                System.out.println("Bilet ücretiniz = " + (total * 0.7));
             } else {
-                System.out.println("Bilet ücretiniz = " + (km * dist * 0.5));
+                System.out.println("Bilet ücretiniz = " + (((total)-(total*0.30))-((total*0.70)*0.2))*2);
             }
         } else if (type == 2){
-            System.out.println("Bilet ücretiniz = " + (km * dist * 0.8));
+            System.out.println("Bilet ücretiniz = " + (total * 0.8)*2);
         } else {
-            System.out.println("Bilet ücretiniz = " + (km * dist));
+            System.out.println("Bilet ücretiniz = " + (total));
         }
     }
 }
