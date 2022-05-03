@@ -10,3 +10,4 @@
 * Ders Ortalaması Hesaplama
 * Etkinlik Önerme
 * Uçak Bileti Fiyatı Hesapla
+* Çin Zodyağı Hesaplama
