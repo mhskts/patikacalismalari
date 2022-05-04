@@ -13,3 +13,4 @@
 * Çin Zodyağı Hesaplama
 * Artık Yıl Hesaplama
 * Faktöriyel Hesaplama
+* Üs Hesaplama
