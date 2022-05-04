@@ -12,3 +12,4 @@
 * Uçak Bileti Fiyatı Hesapla
 * Çin Zodyağı Hesaplama
 * Artık Yıl Hesaplama
+* Faktöriyel Hesaplama
