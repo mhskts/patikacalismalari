@@ -14,3 +14,4 @@
 * Artık Yıl Hesaplama
 * Faktöriyel Hesaplama
 * Üs Hesaplama
+* Max Min Rakam Hesaplama
