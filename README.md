@@ -15,3 +15,4 @@
 * Faktöriyel Hesaplama
 * Üs Hesaplama
 * Max Min Rakam Hesaplama
+* Mükemmel Sayı Sorgulama
